@@ -1,0 +1,82 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.card {
+  background-image: url("../public/valentin-muller-bWtd1ZyEy6w-unsplash.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(96, 98, 100, 0.4);
+  padding: 2%;
+  border-radius: 22px;
+}
+
+.city {
+  padding: 1rem 0 0 0;
+  font-size: 35px;
+  font-weight: 500;
+}
+.search-bar-container {
+  background-color: #7c7c7c2b;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  padding: 1% 4%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 1% 4%;
+  width: 100%;
+  gap: 1rem;
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+.search-weat {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.img-search {
+  width: 2rem;
+  height: 2rem;
+}
+.img-close {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.weather-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
